@@ -188,13 +188,24 @@ h3 {
 
 @media screen and (max-width: 768px) {
     .content-box {
-        width: 700px;
+        width: 600px;
     }
     .photos {
-        width: 175px;
+        width: 150px;
+        height: 125px;
     }
 }
 
 @media screen and (max-width: 640px) {
-    
+    .content-box {
+        width: 400px;
+        min-height: 700px;
+    }
+    footer {
+        position: relative;
+    }
+    .photos {
+        width: 220px;
+        min-height: 10px;
+    }
 }
