@@ -1,0 +1,200 @@
+.content-box {
+    background:#f8f8ff;
+    width: 800px;
+    padding: 50px;
+    margin: 20px auto;
+}
+
+header {
+    border-bottom: 2px solid #f8f8ff;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+#headshot {
+    margin: 20px auto;
+    float: left;
+    padding: 9px 20px 9px 0;
+}
+
+body {
+    background-image: url(../images/dot-grid.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px #f8f8ff;
+    line-height: 24px;
+    color: #ff69b4;
+}
+
+input [type=text] {
+    width: 100%;
+    padding:12px 20px;
+    margin: 12px auto;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input [type=email] {
+    width: 100%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 250px;
+    width: 100%;
+    padding: 10px auto;
+    font-size: 13px;
+}
+
+.button { 
+    background-color: black;
+    border: none;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 13px;
+    margin: 20px 0 0 0;
+    color: white;
+}
+
+h1{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+h1 {
+    float: left;
+    color:#f8f8ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+
+h2{
+    font-size: 22px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    margin: 20px auto;
+}
+
+nav {
+    height: 65px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+nav {
+    float: left;
+    padding: 25px 0;
+}
+
+nav {
+    background-color: #ff69b4;
+    overflow: hidden;
+}
+
+nav a {
+  float: right;
+  color: #f8f8ff;
+  background-color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-bottom: 80px;
+  margin-right: 40px;
+}
+
+nav a:hover {
+  background-color: black;
+  color: #f8f8ff;
+}
+
+nav-right {
+  float: right;
+}
+
+.row {
+    display: flex;
+}
+
+.row2 {
+    display: flex;
+}
+
+.column {
+    position: relative;
+    flex: 33%;
+    padding: 10px;
+    margin: 20px;
+}
+
+#portfolio {
+    box-sizing: border-box;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+footer {
+    background: #ff69b4;
+    height: 45px;
+    width: 100%;
+    margin-top: 90px;
+    border: 2px solid #;
+    margin-bottom: 40px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    color: white;
+    line-height: 60px;
+}
+
+h3 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    color: #ffffff;
+    width: 100%;
+    background-color: #ff69b4;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    bottom: 60px;
+}
+
+@media screen and (max-width: 980px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .content-box {
+        width: 700px;
+    }
+    .photos {
+        width: 175px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+}
